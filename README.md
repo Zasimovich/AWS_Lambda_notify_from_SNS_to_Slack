@@ -2,6 +2,6 @@
 
 Environment variables for AWS Lambda:
 
-SLACK_CHANNEL	channel-name
-SLACK_USER	AWS
-SLACK_WEBHOOK_URL	https://hooks.slack.com/services/XXX/XXX/XXX
+- SLACK_CHANNEL	channel-name 
+- SLACK_USER	AWS
+- SLACK_WEBHOOK_URL	https://hooks.slack.com/services/XXX/XXX/XXX
