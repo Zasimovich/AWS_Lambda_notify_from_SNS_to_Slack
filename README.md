@@ -1,4 +1,5 @@
 This Python code send notification to Slack about AWS SecurityGroup changes for list of events:
+```
     "eventName": [
       "CreateSecurityGroup",
       "DeleteSecurityGroup",
@@ -6,6 +7,7 @@ This Python code send notification to Slack about AWS SecurityGroup changes for 
       "AuthorizeSecurityGroupIngress",
       "RevokeSecurityGroupIngress",
       "RevokeSecurityGroupEgress"
+```
 
 # AWS_Lambda_notify_from_SNS_to_Slack
 In the beggining you need to create chaint AWS CloudTrail -> AWS CloudWatch -> AWS SNS -> AWS Lambda
