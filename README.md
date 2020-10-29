@@ -1,4 +1,4 @@
-This Python code send notification to Slack about AWS SecurityGroup changes for list of events:
+This Python code send notification to Slack about AWS SecurityGroup changes for list of CloudWatch Rule events:
 ```
     "eventName": [
       "CreateSecurityGroup",
@@ -7,6 +7,7 @@ This Python code send notification to Slack about AWS SecurityGroup changes for 
       "AuthorizeSecurityGroupIngress",
       "RevokeSecurityGroupIngress",
       "RevokeSecurityGroupEgress"
+      ]
 ```
 
 # AWS_Lambda_notify_from_SNS_to_Slack
